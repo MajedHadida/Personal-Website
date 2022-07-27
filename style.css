@@ -1,4 +1,18 @@
+.title-wrapper{
+    float:left;
+    border: 1px solid;
+    width: 50%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 #welcome-msg{
+    font-size: 80px;
+    border: solid 1px;
+    width: 50%;
     text-align: center;
 }
 
@@ -26,19 +40,46 @@ footer{
 
 footer img{
     width: 50px;
-    
 }
 
 .button-box{
+    background-color:#526760;
+    color: #C5FFFD;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.button-box:hover{
+    background-color:#C5FFFD;
+    color: #526760;
+}
+
+.content-wrapper{
     float: right;
-    background-color:aquamarine;
-    width: auto;
+    width: 49%;
+    height: 800px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .content-box{
     border: solid 1px;
-    width: 300px;
-    height: 300px;
+    border-radius: 10px;
+    width: 35%;
     margin: 30px;
-    float: right;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    border: 1px solid;
+}
+
+body,
+nav{
+    background-color: #C5FFFD;
 }
