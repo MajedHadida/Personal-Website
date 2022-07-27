@@ -1,6 +1,8 @@
+*{
+    font-family: sans-serif;
+}
 .title-wrapper{
     float:left;
-    border: 1px solid;
     width: 50%;
     height: 800px;
     display: flex;
@@ -11,13 +13,14 @@
 
 #welcome-msg{
     font-size: 80px;
-    border: solid 1px;
     width: 50%;
     text-align: center;
+    font-family: serif;
+    color: #0D1321;
 }
 
 footer{
-    background-color:cornflowerblue;
+    background-color:#748CAB;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -43,24 +46,24 @@ footer img{
 }
 
 .button-box{
-    background-color:#526760;
-    color: #C5FFFD;
+    background-color:#0D1321;
+    color: #748CAB;
     text-decoration: none;
-    border: 1px solid;
     border-radius: 5px;
     padding: 7px;
+    text-shadow: black;
+    text-transform: uppercase;
 }
 
 .button-box:hover{
-    background-color:#C5FFFD;
-    color: #526760;
+    background-color:#748CAB;
+    color: #0D1321
 }
 
 .content-wrapper{
     float: right;
     width: 49%;
     height: 800px;
-    border: 1px solid;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,15 +74,20 @@ footer img{
     border-radius: 10px;
     width: 35%;
     margin: 30px;
+    background-color: #748CAB;
+    color: #0D1321;
 }
 
 nav{
     display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
     justify-content:center;
-    border: 1px solid;
+    background-color: #3E5C76;
 }
 
-body,
-nav{
-    background-color: #C5FFFD;
+body{
+    background-color: #F0EBD8;
 }
