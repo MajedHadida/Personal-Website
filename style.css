@@ -99,6 +99,7 @@ footer img{
     margin: 30px;
     background-color: #29648A;
     color: #0D1321;
+    box-shadow: 1px 1px 2px purple;
 }
 
 nav{
@@ -158,4 +159,11 @@ h2{
     height: 100%;
     width: 100%;
     background-image: url(images/project-background.jpg);
+}
+
+.side-panel{
+    background-color: white;
+    float: right;
+    width: 38%;
+    height: 100%;
 }
