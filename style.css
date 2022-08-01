@@ -53,7 +53,17 @@ footer img{
 
 .button-box{
     color: white;
-    text-shadow: 1px 1px 2px red;
+    text-shadow: 1px 1px 2px purple;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.headers{
+    color: white;
+    text-shadow: 1px 1px 2px purple;
     text-decoration: none;
     border-radius: 5px;
     padding: 7px;
@@ -84,7 +94,7 @@ footer img{
 
 .content-box{
     border-radius: 10px;
-    width: 40%;
+    width: 30%;
     padding: 20px 30px;
     margin: 30px;
     background-color: #29648A;
@@ -132,4 +142,20 @@ h2{
     height: 100%;
     width: 100%;
     background-image: url(images/stars-background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-box-project{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/project-background.jpg);
 }
