@@ -75,11 +75,10 @@ footer img{
 }
 
 .content-wrapper{
-    float: right;
     width: 49%;
     height: 800px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -109,7 +108,7 @@ h2{
 }
 
 
-.background-box{
+.background-box-sky{
     position: fixed;
     top: 0;
     left: 0;
@@ -120,4 +119,17 @@ h2{
     height: 100%;
     width: 100%;
     background-image: url(images/sky-background.jpg);
+}
+
+.background-box-stars{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/stars-background.jpg);
 }
