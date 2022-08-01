@@ -1,26 +1,28 @@
 *{
-    font-family: sans-serif;
+    font-family: serif;
+    color: #AAABB8;
 }
+
 .title-wrapper{
-    float:left;
-    width: 50%;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-#welcome-msg{
+#quote{
     font-size: 80px;
+    font-style: italic;
     width: 50%;
     text-align: center;
     font-family: serif;
-    color: #0D1321;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px red;
 }
 
 footer{
-    background-color:#748CAB;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -41,23 +43,35 @@ footer{
     height: 50%;
 }
 
+.contact:hover{
+    opacity: 0.5;
+}
+
 footer img{
     width: 50px;
 }
 
 .button-box{
-    background-color:#0D1321;
-    color: #748CAB;
+    color: white;
+    text-shadow: 1px 1px 2px red;
     text-decoration: none;
     border-radius: 5px;
     padding: 7px;
-    text-shadow: black;
+    margin: 15px;
     text-transform: uppercase;
 }
 
+#title{
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
+
 .button-box:hover{
-    background-color:#748CAB;
-    color: #0D1321
+    color: #25274D;
 }
 
 .content-wrapper{
@@ -70,11 +84,11 @@ footer img{
 }
 
 .content-box{
-    border: solid 1px;
     border-radius: 10px;
-    width: 35%;
+    width: 40%;
+    padding: 20px 30px;
     margin: 30px;
-    background-color: #748CAB;
+    background-color: #29648A;
     color: #0D1321;
 }
 
@@ -85,9 +99,25 @@ nav{
     top: 0;
     width: 100%;
     justify-content:center;
-    background-color: #3E5C76;
 }
 
-body{
-    background-color: #F0EBD8;
+
+h2{
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: whitesmoke;
+}
+
+
+.background-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/sky-background.jpg);
 }
