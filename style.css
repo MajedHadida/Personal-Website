@@ -1,6 +1,6 @@
 *{
     font-family: serif;
-    color: #AAABB8;
+    color: black;
 }
 
 .title-wrapper{
@@ -63,7 +63,7 @@ footer img{
 
 .headers{
     color: white;
-    text-shadow: 1px 1px 2px purple;
+    text-shadow: 1px 1px 2px black;
     text-decoration: none;
     border-radius: 5px;
     padding: 7px;
@@ -94,12 +94,11 @@ footer img{
 
 .content-box{
     border-radius: 10px;
-    width: 30%;
+    width: 50%;
     padding: 20px 30px;
     margin: 30px;
-    background-color: #29648A;
     color: #0D1321;
-    box-shadow: 1px 1px 2px purple;
+    box-shadow: 1px 1px 2px black;
 }
 
 nav{
@@ -164,6 +163,9 @@ h2{
 .side-panel{
     background-color: white;
     float: right;
-    width: 38%;
-    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 35%;
+    height: 1000px;
 }
