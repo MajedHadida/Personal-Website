@@ -165,7 +165,10 @@ h2{
     float: right;
     position: fixed;
     right: 0;
-    top: 0;
+    top: 100px;
     width: 35%;
     height: 1000px;
+    min-width: 500px;
+    border: 2px red groove;
+    border-radius: 15px;
 }
