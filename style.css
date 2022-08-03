@@ -168,7 +168,7 @@ h2{
     top: 100px;
     width: 35%;
     height: 1000px;
-    min-width: 500px;
+    min-width: 50%;
     border: 2px red groove;
     border-radius: 15px;
 }
