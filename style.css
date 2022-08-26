@@ -172,3 +172,7 @@ h2{
     border: 2px red groove;
     border-radius: 15px;
 }
+
+.project-collection{
+    border: 10px white solid;
+}
