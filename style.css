@@ -44,7 +44,8 @@ footer {
     height: 50%;
 }
 
-.contact:hover {
+.contact-linkedin:hover,
+.contact-github:hover {
     opacity: 0.5;
 }
 
@@ -52,7 +53,9 @@ footer img {
     width: 50px;
 }
 
-.button-box {
+.button-box-home,
+.button-box-project,
+.button-box-about {
     color: white;
     text-shadow: 1px 1px 2px purple;
     text-decoration: none;
